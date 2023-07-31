@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: rgba(232, 227, 227, 0.81);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn:hover {
+  color: #212529;
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
